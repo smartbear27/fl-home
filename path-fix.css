@@ -1,5 +1,8 @@
-/* GitHub Pages路径修复 */
-/* 全局图像修复 */
+/* GitHub Pages路径修复 
+ * 此CSS用于修复GitHub Pages部署时的图像路径问题
+ */
+
+/* 全局图像修复 - 更改所有绝对路径的图像为相对路径 */
 img[src^="/images/"] {
   content: attr(src);
 }
@@ -53,4 +56,9 @@ img[src="/images/team-6.svg"] {
 /* 修复首页图标问题 */
 img[src="/favicon.ico"] {
   content: url("favicon.ico");
+} 
+
+/* 针对GitHub Pages的链接修复 */
+a[href^="/"]:not([href^="http"]) {
+  /* 这里只是占位，实际链接修复需要JavaScript实现 */
 } 
