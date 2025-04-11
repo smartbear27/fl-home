@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "title": "Fairlandtec Ltd. - AI-Powered Innovative Technology Solutions",
+    "description": "Fairlandtec specializes in AI-powered toys, online services, school management systems, and arcade games, providing innovative technology solutions for clients."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "products": "Products",
+    "team": "Team",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "AI-Powered Innovative Technology Solutions",
+    "subtitle": "Fairlandtec is dedicated to applying artificial intelligence technology to toys, online services, campus management, and amusement facilities",
+    "cta": "Learn More"
+  },
+  "about": {
+    "title": "About Fairlandtec",
+    "subtitle": "Innovative Technology, Smart Future",
+    "description": "Fairlandtec Ltd. was established in Hong Kong as an innovative technology company focused on AI technology applications. We are committed to combining artificial intelligence technology with practical application scenarios to provide intelligent and efficient solutions for our clients.",
+    "vision": "Vision",
+    "visionText": "To become a leader in AI applications, driving technological innovation and social progress.",
+    "mission": "Mission",
+    "missionText": "To empower traditional industries through AI technology, creating smarter and more convenient ways of living and working.",
+    "values": "Values",
+    "valuesText": "Innovation, Quality, Integrity, Collaboration"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Diversified AI-Powered Solutions",
+    "description": "Fairlandtec provides diversified AI-powered solutions covering intelligent toys, online services, school management systems, and arcade games.",
+    "aiToys": "AI Intelligent Toys",
+    "aiToysDescription": "Integrating AI technology into toy design to create intelligent, interactive, and personalized children's toy products, providing more educational and entertaining gaming experiences.",
+    "onlineServices": "Online Services",
+    "onlineServicesDescription": "Providing AI-based online service solutions, including intelligent customer service, data analysis, and personalized recommendations, helping enterprises improve operational efficiency and user experience.",
+    "schoolManagement": "School Management Systems",
+    "schoolManagementDescription": "Developing intelligent campus management systems, integrating student management, course scheduling, attendance monitoring, and other functions to achieve intelligent and efficient campus management.",
+    "arcadeGames": "Arcade Games",
+    "arcadeGamesDescription": "Designing and developing arcade game equipment that integrates AI technology, providing immersive and interactive gaming experiences to meet the entertainment needs of modern consumers."
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "Innovative Technology Products, Changing Lifestyles",
+    "description": "Fairlandtec continuously launches innovative products, combining AI technology with practical application scenarios to bring users new experiences.",
+    "viewDetails": "View Details",
+    "backToProducts": "Back to Products",
+    "notFound": "Product Not Found",
+    "notFoundDescription": "Sorry, the product you are looking for does not exist or has been removed.",
+    "features": "Product Features",
+    "specifications": "Specifications",
+    "relatedProducts": "Related Products",
+    "contactUs": "Contact Us for Inquiry",
+    "categories": {
+      "all": "All",
+      "toys": "Smart Toys",
+      "online": "Online Services",
+      "school": "School Systems",
+      "arcade": "Arcade Equipment"
+    }
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Professional Talents, Creating the Future Together",
+    "description": "Fairlandtec has a professional team composed of AI experts, software engineers, product designers, and marketing specialists, dedicated to providing the highest quality products and services for our clients."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Always Ready to Provide Support and Service",
+    "description": "Whether you have any questions or cooperation intentions, you are welcome to contact us at any time. Our team will provide you with professional consultation and support.",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "subject": "Subject",
+    "submit": "Submit",
+    "success": "Message sent successfully. We will contact you as soon as possible.",
+    "error": "Failed to send. Please try again later."
+  },
+  "footer": {
+    "company": "Company",
+    "companyDescription": "Fairlandtec Ltd. is an innovative technology company focused on AI technology applications, committed to providing intelligent and efficient solutions for clients.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "address": "Hong Kong Special Administrative Region",
+    "allRightsReserved": "All Rights Reserved"
+  },
+  "cta": {
+    "title": "Ready to Start Your AI Innovation Journey?",
+    "description": "Contact us to learn how Fairlandtec can help you achieve business innovation and growth.",
+    "button": "Contact Now"
+  }
+}

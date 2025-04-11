@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "title": "墟境科技（香港）有限公司 - AI賦能的創新科技解決方案",
+    "description": "墟境科技專注於AI賦能下的玩具、網絡服務、校園管理系統以及遊樂場遊戲機，為客戶提供創新科技解決方案。"
+  },
+  "nav": {
+    "home": "首頁",
+    "about": "關於我們",
+    "services": "業務介紹",
+    "products": "產品展示",
+    "team": "團隊介紹",
+    "contact": "聯繫我們"
+  },
+  "hero": {
+    "title": "AI賦能的創新科技解決方案",
+    "subtitle": "墟境科技致力於將人工智能技術應用於玩具、網絡服務、校園管理和遊樂設施",
+    "cta": "了解更多"
+  },
+  "about": {
+    "title": "關於墟境科技",
+    "subtitle": "創新科技，智慧未來",
+    "description": "墟境科技（香港）有限公司成立於香港，是一家專注於AI技術應用的創新科技公司。我們致力於將人工智能技術與實際應用場景相結合，為客戶提供智能化、高效率的解決方案。",
+    "vision": "願景",
+    "visionText": "成為AI應用領域的領導者，推動科技創新與社會進步。",
+    "mission": "使命",
+    "missionText": "通過AI技術賦能傳統產業，創造更智能、更便捷的生活與工作方式。",
+    "values": "價值觀",
+    "valuesText": "創新、品質、誠信、合作"
+  },
+  "services": {
+    "title": "我們的業務",
+    "subtitle": "AI賦能的多元化解決方案",
+    "description": "墟境科技提供多元化的AI賦能解決方案，涵蓋智能玩具、網絡服務、校園管理系統和遊樂場遊戲機等多個領域。",
+    "aiToys": "AI智能玩具",
+    "aiToysDescription": "將AI技術融入玩具設計，打造智能互動、個性化的兒童玩具產品，提供更具教育意義和趣味性的遊戲體驗。",
+    "onlineServices": "網絡服務",
+    "onlineServicesDescription": "提供基於AI的網絡服務解決方案，包括智能客服、數據分析、個性化推薦等，幫助企業提升運營效率和用戶體驗。",
+    "schoolManagement": "校園管理系統",
+    "schoolManagementDescription": "開發智能校園管理系統，整合學生管理、課程安排、考勤監控等功能，實現校園管理的智能化和高效化。",
+    "arcadeGames": "遊樂場遊戲機",
+    "arcadeGamesDescription": "設計開發融合AI技術的遊樂場遊戲設備，提供沉浸式、互動性強的遊戲體驗，滿足現代消費者的娛樂需求。"
+  },
+  "products": {
+    "title": "產品展示",
+    "subtitle": "創新科技產品，改變生活方式",
+    "description": "墟境科技不斷推出創新產品，將AI技術與實際應用場景相結合，為用戶帶來全新的體驗。",
+    "viewDetails": "查看詳情",
+    "backToProducts": "返回產品列表",
+    "notFound": "產品未找到",
+    "notFoundDescription": "抱歉，您查找的產品不存在或已被移除。",
+    "features": "產品特性",
+    "specifications": "產品規格",
+    "relatedProducts": "相關產品",
+    "contactUs": "聯繫我們諮詢",
+    "categories": {
+      "all": "全部",
+      "toys": "智能玩具",
+      "online": "網絡服務",
+      "school": "校園系統",
+      "arcade": "遊樂設備"
+    }
+  },
+  "team": {
+    "title": "我們的團隊",
+    "subtitle": "專業人才，共創未來",
+    "description": "墟境科技擁有一支由AI專家、軟件工程師、產品設計師和市場專家組成的專業團隊，致力於為客戶提供最優質的產品和服務。"
+  },
+  "contact": {
+    "title": "聯繫我們",
+    "subtitle": "隨時為您提供支持與服務",
+    "description": "無論您有任何問題或合作意向，都歡迎隨時與我們聯繫。我們的團隊將竭誠為您提供專業的諮詢和支持。",
+    "name": "姓名",
+    "email": "電子郵箱",
+    "phone": "電話",
+    "message": "留言",
+    "subject": "主題",
+    "submit": "提交",
+    "success": "消息已成功發送，我們將儘快與您聯繫。",
+    "error": "發送失敗，請稍後再試。"
+  },
+  "footer": {
+    "company": "公司",
+    "companyDescription": "墟境科技（香港）有限公司是一家專注於AI技術應用的創新科技公司，致力於為客戶提供智能化、高效率的解決方案。",
+    "quickLinks": "快速鏈接",
+    "services": "服務",
+    "contact": "聯繫方式",
+    "address": "香港特別行政區",
+    "allRightsReserved": "版權所有"
+  },
+  "cta": {
+    "title": "準備好開始您的AI創新之旅了嗎？",
+    "description": "聯繫我們，了解墟境科技如何幫助您實現業務創新與增長。",
+    "button": "立即聯繫"
+  }
+}
