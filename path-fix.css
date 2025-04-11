@@ -1,0 +1,56 @@
+/* GitHub Pages路径修复 */
+/* 全局图像修复 */
+img[src^="/images/"] {
+  content: attr(src);
+}
+
+/* 特定图像修复 */
+img[src="/images/logo.svg"] {
+  content: url("images/logo.svg");
+}
+
+img[src="/images/logo-white.svg"] {
+  content: url("images/logo-white.svg");
+}
+
+img[src="/images/hero-image.svg"] {
+  content: url("images/hero-image.svg");
+}
+
+img[src="/images/about-main.svg"] {
+  content: url("images/about-main.svg");
+}
+
+img[src="/images/team-1.svg"] {
+  content: url("images/team-1.svg");
+}
+
+img[src="/images/team-2.svg"] {
+  content: url("images/team-2.svg");
+}
+
+img[src="/images/team-3.svg"] {
+  content: url("images/team-3.svg");
+}
+
+img[src="/images/team-4.svg"] {
+  content: url("images/team-4.svg");
+}
+
+img[src="/images/team-5.svg"] {
+  content: url("images/team-5.svg");
+}
+
+img[src="/images/team-6.svg"] {
+  content: url("images/team-6.svg");
+}
+
+/* 修复背景图像 */
+[style*="background-image: url('/images/"] {
+  background-image: none !important;
+}
+
+/* 修复首页图标问题 */
+img[src="/favicon.ico"] {
+  content: url("favicon.ico");
+} 
