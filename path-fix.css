@@ -2,50 +2,70 @@
  * 此CSS用于修复GitHub Pages部署时的图像路径问题
  */
 
-/* 全局图像修复 - 更改所有绝对路径的图像为相对路径 */
+/* 修复全局图像路径问题 */
+img[src$="logo.svg"] {
+  content: url("./images/logo.svg");
+}
+
+img[src$="logo-white.svg"] {
+  content: url("./images/logo-white.svg");
+}
+
+img[src$="hero-image.svg"] {
+  content: url("./images/hero-image.svg");
+}
+
+img[src$="about-main.svg"] {
+  content: url("./images/about-main.svg");
+}
+
+img[src$="team-1.svg"] {
+  content: url("./images/team-1.svg");
+}
+
+img[src$="team-2.svg"] {
+  content: url("./images/team-2.svg");
+}
+
+img[src$="team-3.svg"] {
+  content: url("./images/team-3.svg");
+}
+
+img[src$="team-4.svg"] {
+  content: url("./images/team-4.svg");
+}
+
+img[src$="team-5.svg"] {
+  content: url("./images/team-5.svg");
+}
+
+img[src$="team-6.svg"] {
+  content: url("./images/team-6.svg");
+}
+
+/* 修复图标 */
+link[rel="icon"][href$="favicon.ico"] {
+  href: "./favicon.ico";
+}
+
+/* 强制应用图片路径修复 */
 img[src^="/images/"] {
-  content: attr(src);
+  visibility: hidden;
 }
 
-/* 特定图像修复 */
-img[src="/images/logo.svg"] {
-  content: url("images/logo.svg");
-}
-
-img[src="/images/logo-white.svg"] {
-  content: url("images/logo-white.svg");
-}
-
-img[src="/images/hero-image.svg"] {
-  content: url("images/hero-image.svg");
-}
-
-img[src="/images/about-main.svg"] {
-  content: url("images/about-main.svg");
-}
-
-img[src="/images/team-1.svg"] {
-  content: url("images/team-1.svg");
-}
-
-img[src="/images/team-2.svg"] {
-  content: url("images/team-2.svg");
-}
-
-img[src="/images/team-3.svg"] {
-  content: url("images/team-3.svg");
-}
-
-img[src="/images/team-4.svg"] {
-  content: url("images/team-4.svg");
-}
-
-img[src="/images/team-5.svg"] {
-  content: url("images/team-5.svg");
-}
-
-img[src="/images/team-6.svg"] {
-  content: url("images/team-6.svg");
+img[src^="/images/"]::after {
+  visibility: visible;
+  content: attr(alt);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  border: 1px dashed #ccc;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* 修复背景图像 */

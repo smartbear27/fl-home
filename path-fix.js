@@ -24,9 +24,15 @@
     const images = document.querySelectorAll('img[src^="/"]');
     images.forEach(img => {
       const src = img.getAttribute('src');
-      // 移除开头的斜杠并设置正确的路径
-      if (src.startsWith('/')) {
-        img.setAttribute('src', src.substring(1));
+      if (src.startsWith('/images/')) {
+        // 对于以/images/开头的路径，正确设置路径
+        img.setAttribute('src', basePath + src);
+      } else if (src.startsWith('/favicon.ico')) {
+        // 修复favicon路径
+        img.setAttribute('src', basePath + src);
+      } else if (src.startsWith('/')) {
+        // 其他绝对路径
+        img.setAttribute('src', basePath + src);
       }
     });
   }
@@ -39,10 +45,9 @@
       // 跳过外部链接
       if (href.startsWith('http')) return;
       
-      // 移除开头的斜杠并设置正确的路径
+      // 修复内部链接
       if (href.startsWith('/')) {
-        const newHref = href.substring(1);
-        link.setAttribute('href', newHref);
+        link.setAttribute('href', basePath + href);
       }
     });
   }
@@ -54,7 +59,7 @@
       const style = el.getAttribute('style');
       if (style) {
         // 处理背景图像URL路径
-        const newStyle = style.replace(/url\(['"]?\/([^'")]+)['"]?\)/g, 'url($1)');
+        const newStyle = style.replace(/url\(['"]?\/([^'")]+)['"]?\)/g, 'url(' + basePath + '/$1)');
         el.setAttribute('style', newStyle);
       }
     });
@@ -62,10 +67,16 @@
   
   // 页面加载完成后执行修复
   function init() {
+    console.log('应用GitHub Pages路径修复，仓库名称：' + repoName);
+    console.log('当前域名：' + hostname);
+    console.log('是用户页面？' + isUserPage);
+    console.log('是项目页面？' + isProjectPage);
+    console.log('基础路径：' + basePath);
+    
     fixImagePaths();
     fixLinkPaths();
     fixBackgroundImages();
-    console.log('GitHub Pages路径修复已应用，仓库名称：' + repoName);
+    console.log('GitHub Pages路径修复已应用完成');
   }
   
   // 在DOM加载完成后执行
